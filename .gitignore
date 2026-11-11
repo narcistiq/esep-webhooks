@@ -1,0 +1,13 @@
+# AWS CLI files and downloaded IAM access keys
+.aws/
+*_accessKeys*.csv
+*credentials*.csv
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# .NET Lambda build and publish output
+[Bb]in/
+[Oo]bj/
